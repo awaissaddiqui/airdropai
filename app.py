@@ -122,6 +122,3 @@ def format_results_with_langchain(raw_results, agent_type):
     except Exception as e:
         return f"Error in LangChain formatting: {e}"
 
-
-if __name__ == "__main__":
-    app.run(debug=True)
